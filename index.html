@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS With Marjib</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+   <!--font awesome kits-->
+   <script src="https://kit.fontawesome.com/04b2016c21.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+   
+   <div class="container">
+    <h1>HTML DOM Events Practice</h1>
+
+    <div id="myDIV" onclick="myFunction()">Clic Me to start Animation</div>  
+   <hr>
+    <h1>Click to show Date</h1>
+    <button type="button" class="btn btn-dark" onclick="showDate()">Show me date</button>
+    <h2 id="d-h2">Date</h2>
+
+    <hr>
+    <h1 class="text-danger">Click to On/Off the Bulb</h1>
+    <button onclick="bulbOn()" type="button" class="btn btn-success">Bulb On</button>
+    <img id="img" src="images/off.gif" alt="light off">
+    <button onclick="bulbOff()" type="button" class="btn btn-danger">Bulb Off</button>
+
+    <hr>
+    <h1 class="text-danger">Click to change font Color</h1>
+    <button onclick="fontChange()" type="button" class="btn btn-dark">Click me</button>
+    <h2 id="h2-2">This is changing font color</h2>
+
+    <hr>
+    <h1>Click the button to show/hide the image</h1>
+    <button onmouseover="show()" class="btn btn-success">Show</button>
+    <button onmouseover="hide()" class="btn btn-success">Hide</button>
+  <img id="c-img" src="images/book.png">
+
+  <hr>
+  <h1>Click to dhow document.write</h1>
+  <button onclick="DWrite()" class="btn btn-danger">DWrite</button>
+
+  <hr>
+  <h1>Click to dhow Window Alert</h1>
+  <button onclick="walert()" class="btn btn-success">This is WAlert</button>
+
+
+  <hr>
+  <h1>Click to show console log</h1>
+  <button onclick="clog()" class="btn btn-success">Console Log</button>
+
+  <hr>
+  <h1>Click to show the variable output</h1>
+  <button onclick="vOutPut()" class="btn btn-success">Variable Output</button>
+  <h2 id="vh2"></h2>
+  
+
+
+
+
+
+    <!--js script link-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
